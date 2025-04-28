@@ -56,7 +56,9 @@ window.onload = async () => {
   //const texture = await Assets.load('https://pixijs.com/assets/bunny.png');
   
   const boxObj = new Graphics().rect(0,0,50,50).fill('#202020')
+  boxObj.pivot.set(25, 25)
   const groundObj = new Graphics().rect(0, 0, 400, 120).fill('#202020')
+  groundObj.pivot.set(200,60)
   
   sceneObjects.push({obj: boxObj, body: box})
   sceneObjects.push({obj: groundObj, body: ground})
