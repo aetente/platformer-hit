@@ -1,9 +1,11 @@
-import Game from "/classes/Game"
+import Game from "./classes/Game.js"
+//import Player from "./classes/Player.js"
 
-console.log("aaaaa")
-
-function initGame() {
+const initGame = async () => {
  const game = new Game()
+ game.run()
 }
 
-initGame()
+window.onload = initGame
+
+//initGame()
