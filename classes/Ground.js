@@ -2,6 +2,8 @@
 //import * as PIXI from "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/8.6.6/pixi.min.js"
 //const Matter = window.Matter
 //const PIXI = window.PIXI
+import * as PIXI from 'pixi';
+import * as Matter from 'matter';
 
 class Ground {
   obj
